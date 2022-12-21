@@ -7,13 +7,17 @@ header{
     background-color: rgb(47, 116, 206);
     color: white;
      nav>a{
-        padding: 15px;
+        padding: 8px;
         text-decoration: none;
         color: white;
+     }
+     span{
+      margin: 8px;
+      background-color: rgb(202, 76, 146);
+      font-size: 20px;
+      border-radius: 50%;
+      width: 70px;
 
      }
-     nav>p{
-      padding:0;
-
-     }
+     
 }

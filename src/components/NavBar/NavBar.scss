@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 70px;
+    background-color: rgb(47, 116, 206);
+    color: white;
+     nav>a{
+        padding: 15px;
+        text-decoration: none;
+        color: white;
+
+     }
+     nav>p{
+      padding:0;
+
+     }
+}

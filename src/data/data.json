@@ -1,0 +1,249 @@
+  [
+    {
+        "id": 1,
+        "categoria": "Analogico",
+        "img": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxjlFw1cn_bFHMdNcWGNA2STPnXzpFbKTmfg&usqp=CAU",
+        "precio": 50000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 2,
+        "categoria": "Analogico",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKwxwAsSuiOPXzH6pStOubZBzdqW3tTnN9ew&usqp=CAU",
+        "precio": 60000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 3,
+        "categoria": "Deportivo",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs4UTD0-eVt3NKk-H03if25Ahhbf2-KRLmPg&usqp=CAU  ",
+        "precio": 70500,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 4,
+        "categoria": "Analogico",
+        "img": " data:image/jpeg;base64,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",
+        "precio": 15000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 5,
+        "categoria": "Analogico",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcaX9exteB7kQNPFLlLwL6MYx659d-6M13lKX2mspsWp2qAmlk6_yu26BXn84a8W5whFM&usqp=CAU",
+        "precio": 16000,
+        "cantidad": 1,
+        "stock ": 150
+    },
+    {
+        "id": 6,
+        "categoria": "Analogico",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL39OWEz6CVUQl5djClTaPsNdwbzeZt5otgw&usqp=CAU",
+        "precio": 17500,
+        "cantidad": 1,
+        "stock ":150
+
+    },
+    {
+        "id": 7,
+        "categoria": "Analogico",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDa6HDFUYBiWVCLHDMNNHyS2lVOBBGaGexozCBDr-2tL6NI0ZtquCUKYLNYLlt2bWikYI&usqp=CAU",
+        "precio": 50000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 8,
+        "categoria": "Deportivo",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT17MnoU7x4-k4g5OqfAjskRoF9njTIMCyx5A&usqp=CAU",
+        "precio": 60000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 9,
+        "categoria": "Analogico",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl2Pm1CzEnmwjHhLLhvL0Wx7QqK1XPtQccTg&usqp=CAU ",
+        "precio": 70500,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 10,
+        "categoria": "Analogico",
+        "img": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV5v698t6pLBfMWj7bkj4n8qopQr8WyMphWQ&usqp=CAU",
+        "precio": 15000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 11,
+        "categoria": "Analogico",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0aVc31I1YTXM2wEXQAKv0zpV4pGpuMWQDQ&usqp=CAU",
+        "precio": 16000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 12,
+        "categoria": "Analogico",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXU7aTIBHjbm36OUJZCoEZsSz7Rw9f6oWOsKGZn3FiNmkjYrggX7rGROK19Kscz0W2bkw&usqp=CAU",
+        "precio": 17500,
+        "cantidad": 1,
+        "stock ":150
+    },
+    
+    {
+        "id": 13,
+        "categoria":"Analogico",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqy4hgGd5fit1wfwIVji2zBpydUm5fBEgqnA&usqp=CAU ",
+        "precio": 50000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 14,
+        "categoria": "Analogico",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPLMsYVQmVP77dIXhsz2Ym9CBK6lXkKPzGaQ&usqp=CAU",
+        "precio": 60000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 15,
+        "categoria": "Analogico",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSMpuW23TcW-bLFqOsswpP9WAse1--Oygu_g&usqp=CAU",
+        "precio": 70500,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 16,
+        "categoria": "Deportivo",
+        "img": " data:image/jpeg;base64,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",
+        "precio": 15000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 17,
+        "categoria":"Deportivo",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQXYrLukgjmRYlfHyfxyPAlNV-HLrtTCfa0pM9mXLQfnuskTYFxtOIJLHvVnUkLevTW4Q&usqp=CAU",
+        "precio": 16000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 18,
+        "categoria": "Deportivo",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3fgnZGGgZ3ovJwavK01-cKiEec6IoFbBvwA&usqp=CAU",
+        "precio": 17500,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 19,
+        "categoria": "Deportivo",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBr0w96XYYY4KMhh3me-9WoaGUXtw1eOIE3w&usqp=CAU ",
+        "precio": 50000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 20,
+        "categoria": "Deportivo",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2v123puVjMUJyzT_h3hFZzLb02cs0lrviow&usqp=CAU",
+        "precio": 60000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 21,
+        "categoria":"Digital",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhiXVBMfTRpVzcAZPgJPbfkuH6mpGaliS7u1xJDO6arzZCnH37fpvuFE8xqQJbQV3M8Xc&usqp=CAU",
+        "precio": 70500,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 22,
+        "categoria":"Digital",
+        "img": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9fja2g6PwZI3QGZ01u0o0IA28HNcZYJCw4w&usqp=CAU",
+        "precio": 15000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 23,
+        "categoria": "Digital",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR32rv_za912YxPpIeMo80yLnvN73U1wN9XJA&usqp=CAU",
+        "precio": 16000,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 24,
+        "categoria": "Digital",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51mnuoiz5FiUPk9eVyQjOu1v-dTJsXbNSqA&usqp=CAU",
+        "precio": 17500,
+        "cantidad": 1,
+        "stock ":150 
+        
+    },
+    {
+        "id": 25,
+        "categoria": "Digital",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcXHS3Au_2L2bRVIdlGMVN7PpHmkXR_Rtn_Q&usqp=CAU",
+        "precio": 50000,
+        "cantidad": 1,
+        "stock ": 150
+        
+    },
+    {
+        "id": 26,
+        "categoria": "Digital",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTikG0OKVJY51qchU_9IqHzE7F_zzLjGXClSg&usqp=CAU ",
+        "precio": 60000,
+        "cantidad": 1,
+        "stock ":150 
+      
+    },
+    {
+        "id": 27,
+        "categoria": "Analogico",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd31G5S-0lAe5nsJbdTFT4veBTLCooEZ9URA&usqp=CAU ",
+        "precio": 70500,
+        "cantidad": 1,
+        "stock ":150
+    },
+    {
+        "id": 28,
+        "categoria":"Digital",
+        "img": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQdqeRdfHOPpiMknovMXkZLscBYezZ_CUaBQ&usqp=CAU",
+        "precio": 15000,
+        "cantidad": 1,
+        "stock ": 150
+    },
+    {
+        "id": 29,
+        "categoria": "Digital",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROSt6xryVHZI4TCScx8xgCC4EjWopGRWq1hg&usqp=CAU",
+        "precio": 16000,
+        "cantidad": 1,
+        "stock ": 150
+       
+    },
+    {
+        "id": 30,
+        "categoria": "Digital",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY_chv9tjIjIWI559ANCN5-WztHRW4wMK91Q&usqp=CAU",
+        "precio": 17500,
+        "cantidad": 1,
+        "stock ": 150
+        
+    }
+]

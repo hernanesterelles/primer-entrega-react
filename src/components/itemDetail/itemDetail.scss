@@ -1,0 +1,23 @@
+.Compra{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    padding: 20px;
+    a.FinalizarCompra{
+        display: flex;
+        align-items: center;
+        
+        height: 40px;        
+        border-radius: 15px;        
+        background: linear-gradient(to left, black, gray);
+        color: white;                 
+        border: solid 2px;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;    
+    }
+    p{
+        margin: 10px;
+        margin-right: 10px;
+    }
+
+}

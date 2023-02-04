@@ -1,11 +1,14 @@
 header{
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     width: auto;
     height: 70px;
-    background-color: rgb(47, 116, 206);
+    background-color: rgb(12, 8, 76);
     color: white;
+   
      nav>a{
         padding: 8px;
         text-decoration: none;
@@ -13,11 +16,17 @@ header{
      }
      .Cantidad{
       margin-right: 5px;
-      background-color: rgb(202, 76, 146);
+      background-color:rgb(240, 238, 200);
+      color: black;
       font-size: 20px;
       border-radius: 50%;
       padding: 2px;
 
      }
      
+}.log{
+      background-color:rgb(240, 238, 200);
+      color: black;
+      margin: 5px;
+      border-radius: 15px;
 }

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Fredoka+One&family=Righteous&family=Roboto&display=swap');
+
+
+
+.cards{
+    display:grid;   
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-auto-rows: minmax(auto);
+    justify-items: center;
+    align-items: center;
+    padding: 25px;    
+    img{
+       height: 200px;
+       width: auto;
+       
+    }   
+    
+    h1{
+     font-size: 50px;
+     color:rgb(47, 116, 206);
+    }  
+    .VerMas{
+        height: 40px;
+        width: 70%;
+        border-radius: 15px;        
+        background: linear-gradient(to left, black, gray);
+        color: white;                 
+        border: solid 2px;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        :hover{
+            background-color:  rgb(71, 181, 255);
+        }
+    }     
+    
+ }
+ 
+ 
+ 
+ .nuestro{
+    margin: 0px ;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif;
+    
+    
+    background-color:rgb(8, 33, 43);
+    color: white;
+    
+   
+}
+.imagen{
+   display: flex;
+    justify-content: center;
+    width: 100%;
+    img{
+        width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    
+}
+
+
+
+

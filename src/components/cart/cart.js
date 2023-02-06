@@ -35,8 +35,8 @@ const Cart = () => {
                 cart.map(item => (
                     <div key={item.id}>
                         <img src={item.img} alt="foto"/>
-                        <p>Cantidad :{item.cantidad}</p>
-                        <p>Precio {item.cantidad * item.precio}</p>
+                        <p className="cantidad">Cantidad :{item.cantidad}</p>
+                        <p className="Precio">Precio {item.cantidad * item.precio}</p>
                         <p className="gotra" onClick={() => EliminarCarrito(item.id)}><FaTrash /></p>
                     </div>
                 ))
@@ -44,7 +44,7 @@ const Cart = () => {
             <h4> Total : ${totalCart()}</h4>
             <button className="btn btn-danger" onClick={vaciarCarrito}>Vaciar carrito</button>
 
-            <Link className="btn btn-primary " to="/Checkout">Terminar mi Compra</Link>
+            <Link className="btn btn-primary my-2" to="/Checkout">Terminar mi Compra</Link>
 
 
         </div>

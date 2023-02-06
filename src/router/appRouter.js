@@ -6,6 +6,7 @@ import PrivateRoutes from "./PrivateRoutes";
 import PublicRoutes from "./PublicRoutes";
 
 
+
 const AppRouter = () => {
 
     const { user } = useLoginContext()
@@ -17,7 +18,9 @@ const AppRouter = () => {
             ? <PrivateRoutes />              
             : <PublicRoutes />
             }
+           
         </BrowserRouter>
+        
     )
 }
 export default AppRouter

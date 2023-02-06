@@ -2,6 +2,7 @@
 .Contadores{
     display: flex;
     align-items: center;
+    margin:10px;
 
 
 .Button{
@@ -16,7 +17,10 @@
    
 }
 .AgregarAlCarrito{
-    background-color: rgb(47, 116, 206);
+    background-color: rgb(8, 70, 151);
     color: white;
+    border-radius: 8px;
+    border-color: white;;
+    height: 40px;
 }
 }

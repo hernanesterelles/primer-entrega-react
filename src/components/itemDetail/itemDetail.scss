@@ -1,12 +1,14 @@
 .Compra{
     display: flex;
+    flex-wrap: wrap;
     margin: 20px;
     align-items: center;
     padding: 20px;
+    min-height: 70vh;
     a.FinalizarCompra{
         display: flex;
         align-items: center;
-        
+        margin: 10px;        
         height: 40px;        
         border-radius: 15px;        
         background: linear-gradient(to left, black, gray);

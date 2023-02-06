@@ -2,7 +2,7 @@ import {useState} from 'react'
 import { Link, Navigate } from 'react-router-dom'
 import { useCartContex } from '../../contex/cartContext'
 import { db } from '../../firebase/config'
-import { collection, addDoc, doc} from 'firebase/firestore'
+import { collection, addDoc, } from 'firebase/firestore'
 
 
 
@@ -43,7 +43,7 @@ const Checkout = () => {
     }
     if (orderId) {
         return (
-            <div className="container my-5">
+            <div className="container ">
                 <h2>Tu compra ha sido exitosa</h2>
                 <hr/>
                 <p>Tu código de orden es: {orderId} </p>
@@ -57,7 +57,7 @@ const Checkout = () => {
         return <Navigate to="/"/>
     }
     return (
-        <div className='container my-5'>
+        <div className='container fluid'>
             <h2>Terminar Compra</h2>
 
             <form onSubmit={handleSubmit} >

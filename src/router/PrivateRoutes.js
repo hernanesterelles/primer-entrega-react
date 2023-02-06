@@ -6,12 +6,16 @@ import Cart from "../components/cart/cart";
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Checkout from "../components/Chekout/Checkout";
-import Footer from "../components/footer/Footer";
+import Footer from "../components/Footer/footer";
+import NotFound from "../components/404/notFound";
+
+
 
 const PrivateRoutes = () =>{
     return (
         <>
-        < NavBar />      
+        < NavBar />  
+          
         
 
         <Routes>
@@ -21,9 +25,13 @@ const PrivateRoutes = () =>{
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/Cart" element={<Cart />} />
             <Route path="/Checkout" element={<Checkout/>} />
-            <Route path="*" element={<Navigate to={"/"} />} />
+            <Route path="/notfound" element={< NotFound/>} />
+            <Route path="*" element={<Navigate to={"/notfound"} />} />
         </Routes>
-        
+        <Footer/> 
+
+
+              
         </>
     )
 }

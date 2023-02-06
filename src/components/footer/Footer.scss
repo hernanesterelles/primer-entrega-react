@@ -1,0 +1,26 @@
+.footer-red{
+   margin-top: auto;
+   bottom: 0;
+}
+.footer{  
+  text-align: center;
+   flex-wrap: wrap;
+    width: auto;
+    height: 150px;
+    background-color: rgb(12, 8, 76);
+    color: white;
+    margin-top: auto;
+    .copy{
+        font-size: 15px;
+    }
+    .sociales{
+        text-align: center;
+        font-size: 13px;
+    }       
+    
+    .redes{
+       font-size: 20px;       
+       text-align: center;
+       margin: 10px;
+    }
+}

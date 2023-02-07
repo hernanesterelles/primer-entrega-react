@@ -3,6 +3,8 @@ import { Link, Navigate } from 'react-router-dom'
 import { useCartContex } from '../../contex/cartContext'
 import { db } from '../../firebase/config'
 import { collection, addDoc, } from 'firebase/firestore'
+import {FcOk} from "react-icons/fc"
+import './Checkout.scss'
 
 
 
@@ -44,7 +46,7 @@ const Checkout = () => {
     if (orderId) {
         return (
             <div className="container ">
-                <h2>Tu compra ha sido exitosa</h2>
+                <h2>Tu compra ha sido exitosa<FcOk/></h2>
                 <hr/>
                 <p>Tu código de orden es: {orderId} </p>
                 <p>Muchas  Gracias por tu Compra</p>
@@ -57,31 +59,34 @@ const Checkout = () => {
         return <Navigate to="/"/>
     }
     return (
-        <div className='container fluid'>
+        <div className='Formulario'>
             <h2>Terminar Compra</h2>
 
             <form onSubmit={handleSubmit} >
-                <input className='form control my-2' 
+                <input className='form  ' 
                 onChange={handleInputChange}
                 type="text"
                 name="nombre"
                 value={values.nombre}
                 placeholder="tu nombre"
                 />
-                 <input className='form control my-2' 
+                <br/>
+                 <input className='form  ' 
                 onChange={handleInputChange}
                 type="text"
                 name="direccion"
                 value={values.direccion}
                 placeholder="tu direccion"
                 />
-                 <input className='form control my-2' 
+                <br/>
+                 <input className='form  ' 
                 onChange={handleInputChange}
                 type="email"
                 name="email"
                 value={values.email}
                 placeholder="tu email"
                 />
+                <br/>
             <button>Enviar</button>
             </form>
         </div>

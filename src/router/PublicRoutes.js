@@ -12,8 +12,7 @@ const PublicRoutes = () => {
 
     return(
         <Routes>
-        <Route path="/registrarse" element={<LoginScreen />} />
-        <Route path="/notfound" element={< NotFound/>} />
+        <Route path="/registrarse" element={<LoginScreen />} />        
         <Route path="/registerScreen" element={<RegisterScreen />} />        
         <Route path="*" element={<Navigate to={"/registrarse"} />} />        
        </Routes>

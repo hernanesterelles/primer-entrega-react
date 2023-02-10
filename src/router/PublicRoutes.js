@@ -2,7 +2,7 @@
 import LoginScreen from "../components/LoginScreen/LoginScreen";
 import { Routes, Route, Navigate } from "react-router-dom";
 import RegisterScreen from "../components/RegisterScreen/registerScreen";
-import NotFound from "../components/404/notFound";
+
 
 
 

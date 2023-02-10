@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link, Navigate } from 'react-router-dom'
 import { useCartContex } from '../../contex/cartContext'
 import { db } from '../../firebase/config'
-import { collection, addDoc, } from 'firebase/firestore'
+import { collection, addDoc,  } from 'firebase/firestore'
 import { FcOk } from "react-icons/fc"
 import './Checkout.scss'
 
@@ -36,12 +36,16 @@ const Checkout = () => {
             total: totalCart()
         }
         const ordenRef = collection(db, 'ordenes')
+        
         addDoc(ordenRef, orden)
             .then((doc) => {
                 setOrderId(doc.id)
                 vaciarCarrito()
             })
             .catch((error) => console.log(error))
+            
+               
+            ;
     }
     if (orderId) {
         return (
